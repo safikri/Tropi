@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>537005854429-cm32k2gs1rl58n93ndbfasd1tda41ehe.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.537005854429-cm32k2gs1rl58n93ndbfasd1tda41ehe</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>537005854429-5osk18co8dlje1m38b767r5i368ss9b2.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAg4S9H5kZfIUw9a7vv0368E5_I_utm8VQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>537005854429</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.jaggo.tropiapp</string>
+	<key>PROJECT_ID</key>
+	<string>panacea-fode</string>
+	<key>STORAGE_BUCKET</key>
+	<string>panacea-fode.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:537005854429:ios:0d296cb723f717a0ec1534</string>
+</dict>
+</plist>

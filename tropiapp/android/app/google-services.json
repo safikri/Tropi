@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "853544998176",
+    "project_id": "tropiapp-jaggo",
+    "storage_bucket": "tropiapp-jaggo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853544998176:android:714267ff404af4ed927345",
+        "android_client_info": {
+          "package_name": "com.jaggo.tropiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853544998176-hfo392lu4brigmnbqvku05a36hhoeotb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jaggo.tropiapp",
+            "certificate_hash": "6fbb9ba4d3ea0d78bb6635c2d23cd895f70ab4f1"
+          }
+        },
+        {
+          "client_id": "853544998176-p7uf94qpfj0nnk02ojrhnonh0q8n6nld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsKUB8kC--khwAAjFzPhCcBIcNWReFgIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853544998176-17lj7d4sbl5j79km5feicdhsmirp6vop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
