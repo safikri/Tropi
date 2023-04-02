@@ -6,10 +6,10 @@ import 'package:tropiapp/modules/login/bindings/login_binding.dart';
 import 'package:tropiapp/modules/login/views/login_view.dart';
 import 'package:tropiapp/modules/introduction/bindings/introduction_binding.dart';
 import 'package:tropiapp/modules/introduction/views/introduction_view.dart';
-import 'package:tropiapp/modules/trainerList/bindings/trainer_list_binding.dart';
-import 'package:tropiapp/modules/trainerList/views/trainer_list_view.dart';
-import 'package:tropiapp/modules/playgroundList/bindings/playground_list_binding.dart';
-import 'package:tropiapp/modules/playgroundList/views/playground_list_view.dart';
+import 'package:tropiapp/modules/trainer/trainerList/bindings/trainer_list_binding.dart';
+import 'package:tropiapp/modules/trainer/trainerList/views/trainer_list_view.dart';
+import 'package:tropiapp/modules/playground/playgroundList/bindings/playground_list_binding.dart';
+import 'package:tropiapp/modules/playground/playgroundList/views/playground_list_view.dart';
 
 part 'app_routes.dart';
 
