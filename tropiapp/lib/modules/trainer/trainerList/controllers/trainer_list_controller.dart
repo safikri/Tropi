@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
 import 'dart:async';
 import 'dart:convert';
 
-import '../../../routes/app_pages.dart';
+import '../../../../routes/app_pages.dart';
 
 class TrainerListController extends GetxController {
   final authController = Get.find<AuthController>();
