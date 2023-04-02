@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:tropiapp/themes/constants.dart';
 import 'package:tropiapp/models/playground_model.dart';
+import 'package:tropiapp/routes/app_pages.dart';
 
 import '../controllers/playground_list_controller.dart';
 
@@ -50,6 +51,13 @@ class PlaygroundListView extends GetView<PlaygroundListController> {
                                   borderRadius: BorderRadius.circular(20)),
                               margin: const EdgeInsets.symmetric(vertical: 10),
                               child: InkWell(
+                                onTap: () => Get.toNamed(
+                                  Routes.PLAYGROUNDDETAIL,
+                                  arguments: {
+                                    // "patient": controller.patientsSearch[index],
+                                    "patient": 'cara lempar parameter',
+                                  },
+                                ),
                                 // onTap: () {
                                 //   Route PlaygroundDetail = MaterialPageRoute(
                                 //     builder: (context) =>
