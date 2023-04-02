@@ -6,6 +6,8 @@ import 'package:tropiapp/modules/login/bindings/login_binding.dart';
 import 'package:tropiapp/modules/login/views/login_view.dart';
 import 'package:tropiapp/modules/introduction/bindings/introduction_binding.dart';
 import 'package:tropiapp/modules/introduction/views/introduction_view.dart';
+import 'package:tropiapp/modules/trainerList/bindings/trainer_list_binding.dart';
+import 'package:tropiapp/modules/trainerList/views/trainer_list_view.dart';
 
 part 'app_routes.dart';
 
@@ -27,6 +29,11 @@ class AppPages {
       name: _Paths.INTRODUCTION,
       page: () => IntroductionView(),
       binding: IntroductionBinding(),
+    ),
+    GetPage(
+      name: _Paths.TRAINERLIST,
+      page: () => TrainerListView(),
+      binding: TrainerListBinding(),
     ),
   ];
 }
