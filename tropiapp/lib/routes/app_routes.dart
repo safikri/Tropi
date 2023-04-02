@@ -8,7 +8,7 @@ abstract class Routes {
   static const INTRODUCTION = _Paths.INTRODUCTION;
   static const LOGIN = _Paths.LOGIN;
   static const TRAINERLIST = _Paths.TRAINERLIST;
-  static const CHAT_ROOM = _Paths.CHAT_ROOM;
+  static const PLAYGROUNDLIST = _Paths.PLAYGROUNDLIST;
   static const SEARCH = _Paths.SEARCH;
   static const UPDATE_STATUS = _Paths.UPDATE_STATUS;
   static const CHANGE_PROFILE = _Paths.CHANGE_PROFILE;
@@ -19,7 +19,7 @@ abstract class _Paths {
   static const INTRODUCTION = '/introduction';
   static const LOGIN = '/login';
   static const TRAINERLIST = '/trainerList';
-  static const CHAT_ROOM = '/chat-room';
+  static const PLAYGROUNDLIST = '/playgroundList';
   static const SEARCH = '/search';
   static const UPDATE_STATUS = '/update-status';
   static const CHANGE_PROFILE = '/change-profile';

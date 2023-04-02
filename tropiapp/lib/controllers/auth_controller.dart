@@ -99,6 +99,7 @@ class AuthController {
 
         user.refresh();
         isAuth.value = true;
+//        isSkipIntro.value = true;
         Get.offAllNamed(Routes.HOME);
       } else {
         print("TIDAK BERHASIL LOGIN");

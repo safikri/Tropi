@@ -8,6 +8,8 @@ import 'package:tropiapp/modules/introduction/bindings/introduction_binding.dart
 import 'package:tropiapp/modules/introduction/views/introduction_view.dart';
 import 'package:tropiapp/modules/trainerList/bindings/trainer_list_binding.dart';
 import 'package:tropiapp/modules/trainerList/views/trainer_list_view.dart';
+import 'package:tropiapp/modules/playgroundList/bindings/playground_list_binding.dart';
+import 'package:tropiapp/modules/playgroundList/views/playground_list_view.dart';
 
 part 'app_routes.dart';
 
@@ -34,6 +36,11 @@ class AppPages {
       name: _Paths.TRAINERLIST,
       page: () => TrainerListView(),
       binding: TrainerListBinding(),
+    ),
+    GetPage(
+      name: _Paths.PLAYGROUNDLIST,
+      page: () => PlaygroundListView(),
+      binding: PlaygroundListBinding(),
     ),
   ];
 }

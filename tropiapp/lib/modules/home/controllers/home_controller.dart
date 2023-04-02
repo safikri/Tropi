@@ -44,12 +44,12 @@ class HomeController extends GetxController {
         .doc(chat_id)
         .update({"total_unread": 0});
 
-    Get.toNamed(
-      Routes.CHAT_ROOM,
-      arguments: {
-        "chat_id": chat_id,
-        "friendEmail": friendEmail,
-      },
-    );
+    // Get.toNamed(
+    //   Routes.CHAT_ROOM,
+    //   arguments: {
+    //     "chat_id": chat_id,
+    //     "friendEmail": friendEmail,
+    //   },
+    // );
   }
 }

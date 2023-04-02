@@ -91,12 +91,13 @@ class HomeView extends GetView<HomeController> {
                       ),
                     ),
                     GestureDetector(
-                      // onTap: () {
-                      //   Route CourtDetail = MaterialPageRoute(
-                      //     builder: (context) => PlaygroundListScreen(),
-                      //   );
-                      //   Navigator.push(context, CourtDetail);
-                      // },
+                      onTap: () => Get.toNamed(
+                        Routes.PLAYGROUNDLIST,
+                        arguments: {
+                          // "patient": controller.patientsSearch[index],
+                          "patient": 'cara lempar parameter',
+                        },
+                      ),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
