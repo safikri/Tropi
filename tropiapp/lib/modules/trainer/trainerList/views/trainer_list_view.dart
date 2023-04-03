@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:tropiapp/themes/constants.dart';
 import 'package:tropiapp/models/trainer_model.dart';
+import 'package:tropiapp/routes/app_pages.dart';
 
 import '../controllers/trainer_list_controller.dart';
 
@@ -63,6 +64,14 @@ class TrainerListView extends GetView<TrainerListController> {
                                   //   );
                                   //   Navigator.push(context, TrainerDetail);
                                   // },
+
+                                  onTap: () => Get.toNamed(
+                                    Routes.TRAINERDETAIL,
+                                    arguments: {
+                                      // "patient": controller.patientsSearch[index],
+                                      "trainer": trainers[index],
+                                    },
+                                  ),
                                   child: Padding(
                                     padding: const EdgeInsets.all(10.0),
                                     child: Row(
