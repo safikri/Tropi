@@ -133,13 +133,15 @@ class TrainerListView extends GetView<TrainerListController> {
                                                         FontWeight.bold),
                                               ),
                                               SizedBox(height: 10),
-                                              const Text(
-                                                "Tennis Coach | Exp. 10 Years",
+                                              Text(
+                                                trainers[index].info +
+                                                    " | " +
+                                                    trainers[index].info2,
                                                 style: TextStyle(fontSize: 12),
                                               ),
                                               const SizedBox(height: 10),
-                                              const Text(
-                                                'Rp 200.000 /hour',
+                                              Text(
+                                                'Rp. ${authController.priceFormat.format(trainers[index].price)}/Hour',
                                                 style: TextStyle(
                                                     fontSize: 12,
                                                     fontWeight:

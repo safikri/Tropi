@@ -51,7 +51,7 @@ class TrainerDetailView extends GetView<TrainerDetailController> {
                 Row(
                   children: [
                     Text(
-                      'Rp 200.000 /Hour',
+                      'Rp. ${authController.priceFormat.format(trainer.price)}/Hour',
                       style: Theme.of(context)
                           .textTheme
                           .headlineSmall!
@@ -76,7 +76,7 @@ class TrainerDetailView extends GetView<TrainerDetailController> {
                       color: primaryColor,
                     ),
                     Text(
-                      '$rating',
+                      trainer.rating.toString(),
                       style: const TextStyle(fontSize: 18, color: primaryColor),
                     ),
                   ],
@@ -88,7 +88,7 @@ class TrainerDetailView extends GetView<TrainerDetailController> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Tennis Coach | Exp. 10 years',
+                      trainer.info + ' | ' + trainer.info2,
                       style: Theme.of(context).textTheme.bodyLarge,
                     ),
                   ],

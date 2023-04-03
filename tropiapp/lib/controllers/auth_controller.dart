@@ -5,12 +5,15 @@ import 'package:tropiapp/routes/app_pages.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:tropiapp/models/users_model.dart';
 import 'package:get_storage/get_storage.dart';
+import 'package:intl/intl.dart';
 
 class AuthController {
   // var urlApi = "10.0.2.2:8080";
   // var urlApi = "127.0.0.1:8080";
   var urlApi = "10.0.2.2:8080";
   // var urlApi = "127.0.0.1:8080";
+
+  var priceFormat = NumberFormat("###,###.##", "en_US");
 
   var isSkipIntro = false.obs;
   var isAuth = false.obs;

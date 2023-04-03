@@ -19,7 +19,8 @@ class PlaygroundListController extends GetxController {
     var _dataCourt = <Playground>[];
 
     var url = Uri.parse(
-        'http://' + authController.urlApi + '/getPlaygroundsByCoach?id=1');
+        'http://' + authController.urlApi + '/getPlaygroundsByCoach?id=-1');
+    // 'http://' + authController.urlApi + '/GetPlaygrounds');
     try {
       var jsonResponse = await http.get(url);
       if (jsonResponse.statusCode == 200) {

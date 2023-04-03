@@ -54,8 +54,7 @@ class PlaygroundListView extends GetView<PlaygroundListController> {
                                 onTap: () => Get.toNamed(
                                   Routes.PLAYGROUNDDETAIL,
                                   arguments: {
-                                    // "patient": controller.patientsSearch[index],
-                                    "patient": 'cara lempar parameter',
+                                    "playground": _dataCourt[index],
                                   },
                                 ),
                                 // onTap: () {

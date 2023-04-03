@@ -12,6 +12,8 @@ class PlaygroundDetailView extends GetView<PlaygroundDetailController> {
   final authController = Get.find<AuthController>();
   double rating = 4;
 
+  final Playground playground = Get.arguments["playground"];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -50,7 +52,7 @@ class PlaygroundDetailView extends GetView<PlaygroundDetailController> {
                 Row(
                   children: [
                     Text(
-                      'Orion Tennis Court',
+                      playground.name,
                       style: Theme.of(context)
                           .textTheme
                           .headlineSmall!
@@ -61,7 +63,7 @@ class PlaygroundDetailView extends GetView<PlaygroundDetailController> {
                       color: primaryColor,
                     ),
                     Text(
-                      '$rating',
+                      playground.rating.toString(),
                       style: const TextStyle(fontSize: 18, color: primaryColor),
                     ),
                   ],
@@ -97,7 +99,7 @@ class PlaygroundDetailView extends GetView<PlaygroundDetailController> {
                   height: 10,
                 ),
                 Text(
-                  'Jl. M. Saidi Raya No.13-14, Petukangan Sel, Kec. Pesanggrahan, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12270',
+                  playground.address,
                   style: Theme.of(context).textTheme.bodyLarge,
                 ),
                 SizedBox(
